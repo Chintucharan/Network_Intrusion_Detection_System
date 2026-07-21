@@ -210,7 +210,7 @@ http://127.0.0.1:5000/
 
 ## 👨‍💻 Developer
 
-**Chintucharan**
+**GOWNI VENKAT CHARAN**
 
 Software Developer | Machine Learning Enthusiast | Cybersecurity Developer
 
