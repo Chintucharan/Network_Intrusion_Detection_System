@@ -1,147 +1,223 @@
-# Network Intrusion Detection System
+# 🛡️ Network Intrusion Detection System (NIDS) Using Machine Learning
 
-## Overview
-The Network Intrusion Detection System (NIDS) is a machine learning-based application that detects malicious network traffic by analyzing network flow features. It provides real-time intrusion prediction through a Flask web application, helping identify potential cyber threats efficiently.
+A production-oriented **Network Intrusion Detection System** that combines network traffic analysis with machine learning to identify and classify suspicious activities in real time.
 
----
-
-## Features
-- Detects normal and malicious network traffic
-- Machine Learning-based intrusion prediction
-- Real-time prediction using a trained model
-- User-friendly Flask web interface
-- Feature preprocessing using scaling and label encoding
-- Upload network traffic data for analysis
+Built with a focus on **software engineering practices, modular architecture, data processing pipelines, and scalable ML deployment**.
 
 ---
 
-## Tech Stack
-- Python
-- Flask
-- Scikit-learn
-- Pandas
-- NumPy
-- Scapy
-- Matplotlib
+## 🚀 Project Overview
+
+Modern networks generate massive amounts of traffic, making manual monitoring inefficient. This project provides an intelligent detection system that analyzes network packets, extracts meaningful features, and predicts potential cyber threats using machine learning models.
+
+The system is designed to demonstrate practical skills in:
+
+* Backend development
+* Machine learning integration
+* Data preprocessing pipelines
+* Network security concepts
+* API development
+* Software architecture
 
 ---
 
-## Project Structure
+## ✨ Key Features
+
+### 🔍 Real-Time Network Monitoring
+
+* Captures live network packets using packet analysis libraries.
+* Extracts important network-level information.
+* Enables continuous traffic inspection.
+
+### 🤖 Machine Learning Threat Detection
+
+* Processes network traffic features.
+* Uses trained ML models for attack classification.
+* Supports model serialization and deployment.
+
+### 🌐 Web-Based Dashboard
+
+* Flask-powered backend application.
+* Provides an interface for monitoring detection results.
+* Modular route-based application structure.
+
+### 📊 Data Analysis & Visualization
+
+* Data preprocessing using Pandas.
+* Visualization using Matplotlib and Seaborn.
+* Helps analyze traffic patterns and model performance.
+
+---
+
+## 🏗️ System Architecture
 
 ```
-NETWORK_INTRUSION_DETECTION/
+Network Traffic
+        |
+        ↓
+Packet Capture Layer
+        |
+        ↓
+Feature Extraction
+        |
+        ↓
+Data Processing Pipeline
+        |
+        ↓
+Machine Learning Model
+        |
+        ↓
+Prediction Engine
+        |
+        ↓
+Flask Web Application
+        |
+        ↓
+User Dashboard
+```
+
+---
+
+## 🛠️ Tech Stack
+
+### Backend
+
+* Python
+* Flask
+
+### Machine Learning
+
+* Scikit-learn
+* Joblib
+
+### Network Analysis
+
+* Scapy
+* PyShark
+
+### Data Processing
+
+* Pandas
+* NumPy
+
+### Visualization
+
+* Matplotlib
+* Seaborn
+
+### Development Tools
+
+* Git
+* Virtual Environment
+
+---
+
+## 📂 Project Structure
+
+```
+Network_Intrusion_Detection_System/
 │
 ├── app/
-│   ├── static/
-│   ├── templates/
 │   ├── routes.py
-│   └── __init__.py
+│   └── ...
+│
+├── models/
+│   └── trained_model files
 │
 ├── dataset/
-├── uploads/
-├── train_model.py
+│
+├── static/
+│
+├── templates/
+│
 ├── run.py
-├── network_intrusion_model.pkl
-├── network_intrusion_scaler.pkl
-├── network_intrusion_label_encoders.pkl
-├── intrusion.pkl
 ├── requirements.txt
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-## Installation
+## ⚙️ Installation & Setup
 
-1. Clone the repository
+Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/network-intrusion-detection.git
-cd network-intrusion-detection
+git clone https://github.com/Chintucharan/Network_Intrusion_Detection_System.git
 ```
 
-2. Create a virtual environment
+Navigate into the project:
+
+```bash
+cd Network_Intrusion_Detection_System
+```
+
+Create virtual environment:
 
 ```bash
 python -m venv venv
 ```
 
-3. Activate the virtual environment
+Activate environment:
 
-**Windows**
+Windows:
 
 ```bash
 venv\Scripts\activate
 ```
 
-**Linux/macOS**
-
-```bash
-source venv/bin/activate
-```
-
-4. Install dependencies
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-5. Run the application
+Run application:
 
 ```bash
 python run.py
 ```
 
-Open your browser and visit:
+Application runs at:
 
 ```
-http://127.0.0.1:5000
-```
-
----
-
-## Train the Model
-
-To retrain the model:
-
-```bash
-python train_model.py
+http://127.0.0.1:5000/
 ```
 
 ---
 
-## Dependencies
+## 🧠 Engineering Highlights
 
-- Flask
-- Pandas
-- NumPy
-- Scikit-learn
-- Scapy
-- Matplotlib
-
-Install all dependencies using:
-
-```bash
-pip install -r requirements.txt
-```
+✅ Designed modular Flask application structure
+✅ Integrated machine learning inference pipeline
+✅ Implemented automated data preprocessing workflow
+✅ Applied object-oriented and reusable coding practices
+✅ Used Git-based version control workflow
+✅ Built an end-to-end ML application from data to deployment
 
 ---
 
-## Future Enhancements
+## 📈 Future Improvements
 
-- Real-time packet capture
-- Deep learning-based detection
-- Interactive dashboard
-- Cloud deployment
-- REST API integration
+* Containerization using Docker
+* REST API improvements
+* Cloud deployment
+* Real-time alert notifications
+* Deep learning based intrusion detection
+* CI/CD pipeline integration
 
 ---
 
-## Author
+## 👨‍💻 Developer
 
-GOWNI VENKAT CHARAN
+**Chintucharan**
+
+Software Developer | Machine Learning Enthusiast | Cybersecurity Developer
+
+Interested in building scalable backend systems, intelligent applications, and security-focused software solutions.
+
 ---
 
-## License
+## ⭐ Support
 
-This project is licensed under the MIT License.
+If you find this project useful, consider giving it a star ⭐ on GitHub.
