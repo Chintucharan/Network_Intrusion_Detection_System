@@ -212,10 +212,6 @@ http://127.0.0.1:5000/
 
 **GOWNI VENKAT CHARAN**
 
-Software Developer | Machine Learning Enthusiast | Cybersecurity Developer
-
-Interested in building scalable backend systems, intelligent applications, and security-focused software solutions.
-
 ---
 
 ## ⭐ Support
