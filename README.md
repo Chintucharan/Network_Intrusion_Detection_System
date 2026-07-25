@@ -90,14 +90,14 @@ The dashboard provides real-time visualization of network activity and intrusion
 
 Visualization of network traffic patterns and extracted feature distributions used during analysis.
 
-![Traffic Analysis Chart](screenshots/chart-1.png)
+![Traffic Analysis Chart](screenshots/charts-1.png)
 
 
 ## 📈 Model Performance Visualization
 
 Charts showing machine learning model evaluation metrics and detection performance.
 
-![Model Performance Chart](screenshots/chart-2.png)
+![Model Performance Chart](screenshots/charts-2.png)
 
 
 ## 🤖 Intrusion Prediction Results
